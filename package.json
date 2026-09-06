@@ -27,6 +27,7 @@
         "test": "vitest run",
         "test:watch": "vitest",
         "test:coverage": "npx vitest run --coverage",
+        "bench": "vitest bench --config vitest.bench.config.ts",
         "lint": "eslint src/ packages/",
         "lint:fix": "eslint --fix src/ packages/",
         "lint:quick": "eslint src/ packages/ --quiet --cache",
